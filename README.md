@@ -1,0 +1,1 @@
+Place your PDF in assets/Beyond_the_Rejection.pdf and deploy to Netlify.
