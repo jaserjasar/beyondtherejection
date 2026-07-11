@@ -1,116 +1,64 @@
-.author{
-
-display:flex;
-gap:60px;
-align-items:center;
-padding:90px 10%;
-background:#0d1b2a;
-
+.get-copy{
+    padding:80px 20px;
+    background:linear-gradient(135deg,#0f172a,#111827);
 }
 
-.author img{
-
-width:300px;
-border-radius:20px;
-box-shadow:0 20px 50px rgba(0,0,0,.5);
-
+.copy-card{
+    max-width:900px;
+    margin:auto;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(12px);
+    border-radius:20px;
+    padding:50px;
+    text-align:center;
+    border:1px solid rgba(255,255,255,.15);
+    box-shadow:0 15px 40px rgba(0,0,0,.45);
 }
 
-.author-content{
-
-flex:1;
-
+.copy-card h2{
+    color:#fbbf24;
+    font-size:38px;
+    margin-bottom:15px;
 }
 
-.author h2{
-
-color:#ffb703;
-margin-bottom:15px;
-
+.copy-text{
+    color:#d1d5db;
+    font-size:18px;
+    margin-bottom:35px;
+    line-height:1.8;
 }
 
-.author h3{
-
-font-size:32px;
-margin-bottom:20px;
-
+.copy-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
 }
 
-.author p{
-
-color:#ddd;
-font-size:18px;
-line-height:1.8;
-
-}
-
-.social{
-
-margin-top:30px;
-
-}
-
-.social a{
-
-display:inline-block;
-margin-right:15px;
-padding:12px 20px;
-background:#19355d;
-border-radius:8px;
-text-decoration:none;
-color:white;
-
-}
-
-.buy{
-
-text-align:center;
-padding:100px 10%;
-
-}
-
-.buy-buttons{
-
-margin-top:40px;
-
-}
-
-.buy-buttons a{
-
-display:inline-block;
-margin:15px;
-padding:18px 40px;
-font-size:18px;
-font-weight:600;
-border-radius:50px;
-text-decoration:none;
-transition:.3s;
-
+.btn{
+    text-decoration:none;
+    padding:16px 30px;
+    border-radius:50px;
+    color:#fff;
+    font-weight:600;
+    transition:.3s;
+    min-width:220px;
+    display:inline-block;
 }
 
 .amazon{
-
-background:#ff9900;
-color:#111;
-
+    background:#FF9900;
 }
 
 .google{
-
-background:#34a853;
-color:white;
-
+    background:#34A853;
 }
 
-.pdf{
-
-background:#2563eb;
-color:white;
-
+.read{
+    background:#2563eb;
 }
 
-.buy-buttons a:hover{
-
-transform:translateY(-6px);
-
+.btn:hover{
+    transform:translateY(-5px);
+    box-shadow:0 12px 25px rgba(0,0,0,.4);
 }
